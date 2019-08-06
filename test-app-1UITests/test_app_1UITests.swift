@@ -30,5 +30,13 @@ class test_app_1UITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testPressButton() {
+        let app = XCUIApplication()
+        
+        app.buttons["btnPress"].tap()
+        
+        print(app)
+    }
 
 }

@@ -9,12 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var btnPress: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func btnPress(_ sender: UIButton) {
+        print(1234)
+    }
 
 }
 
